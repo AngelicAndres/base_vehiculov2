@@ -13,7 +13,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/vehicles")
 @RequiredArgsConstructor
-public class controller_vehiculo {
+public class VehicleController {
 
     private final VehicleService service;
 
